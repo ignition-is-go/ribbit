@@ -4,7 +4,8 @@ require('dotenv').config()
 
 const {
   CONNECTION_STRING: connectionString,
-  EXCHANGE_NAME: exchangeName
+  EXCHANGE_NAME: exchangeName, 
+  QUEUE_NAME: queue
 } = process.env
 
 amqp.connect(connectionString, (error, connection) => {
