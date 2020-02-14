@@ -11,7 +11,7 @@ CONNECTION_STRING="amqp://[login]:[password]@[server-url]:5672"
 EXCHANGE_NAME="[exchange-name]"
 EXCHANGE_TYPE="[exchange-type]"
 QUEUE_NAME="[queue-name]"
-QUEUE_BINDING="[routing-matching pattern]" # e.g. '*.*.*.*' or '*.ribbit.#'
+QUEUE_BINDINGS="[routing-matching pattern]|[second-pattern]" # e.g. '*.*.*.*' or '*.ribbit.#' split by | 
 ```
 
 ## Start
